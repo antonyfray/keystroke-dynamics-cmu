@@ -15,7 +15,7 @@ Questions that immediately need answering:
         - What was successful about their approach? 
         - What were their limitations?
 - What do the features in the dataset represent?
-- Which do we prioritise - false poitives or false negatives (aka in this context: false-alarm rates and miss rates).
+- Which do we prioritise - false positives or false negatives (aka in this context: false-alarm rates and miss rates).
     - From the literature (and common sense to be honest), we should prioritise lowering miss rates (it's better to lock out a user, than have a threat access the system).
 
 These were largely answered through reading the aforementioned paper, and doing some background reading and research.
