@@ -23,3 +23,14 @@ These were largely answered through reading the aforementioned paper, and doing 
 The aforementioned paper also detailed a method by which different detectors could be compared on the same dataset. So to evaluate how our 'new' model performs against its competitors, it makes sense to first implement a pre-existing model, then our new model, and compare performance under the same conditions.
 
 Note: The paper implemented the techniques using R (which I've not used before). Implementation in Python _should_ be the same, but there may be some underlying differences in R/Python's mathematics libraries
+
+-----
+Order in which the notebooks were devised (and the logical order in which to read them):
+- exploratoryAnalysis.ipynb
+- manhattan.ipynb
+- manhattanNoDD.ipynb
+- manhattanNoUD.ipynb
+- manhattanNoH.ipynb
+- manhattanFiltered.ipynb
+- manhattanFilteredNoUD.ipynb
+- comparedDetectors.ipynb
